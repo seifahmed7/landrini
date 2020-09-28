@@ -1,0 +1,1 @@
+$(function(){"use strict";$("header").height($(window).height()),$(window).scroll(function(){$(this).scrollTop()>=5?$("nav").addClass("nav-scrolling"):$("nav").removeClass("nav-scrolling")}),$(".navbtn").on("click",function(){$(".links").toggleClass("hidnav"),$("nav").toggleClass("navstyle")})});
